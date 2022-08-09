@@ -2061,6 +2061,28 @@ html body .filter .jumpWindow.agRegist .content .block .apply {
 html body .filter .jumpWindow.agRegist .content .block .apply:hover, html body .filter .jumpWindow.agRegist .content .block .apply:active, html body .filter .jumpWindow.agRegist .content .block .apply.active {
   background: #b9001b;
 }
+html body .filter .jumpWindow.agApply {
+  width: 360px;
+  height: auto;
+  position: relative;
+  display: none;
+}
+html body .filter .jumpWindow.agApply.display {
+  display: block;
+}
+html body .filter .jumpWindow.agApply .content {
+  width: 100%;
+  height: auto;
+  padding: 50px 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html body .filter .jumpWindow.agApply .content p {
+  color: #ffc13c;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
 html body .filter .jumpWindow.agTerms {
   width: 840px;
   display: none;

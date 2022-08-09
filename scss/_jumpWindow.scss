@@ -352,6 +352,31 @@
             }   
         }
 
+        //退傭代理申請已送出
+        &.agApply {
+            width: 360px;
+            height: auto;
+            position: relative;
+            display: none;
+
+            &.display {
+                display: block;
+            }
+
+            .content {
+                width: 100%;
+                height: auto;
+                padding: 50px 40px;
+                box-sizing: border-box;
+
+                p {
+                    color: $mainFont_1;
+                    font-size: 18px;
+                    line-height: 30px;
+                    text-align: center;
+                }
+            }
+        }
 
         //退傭代理相關條款
         &.agTerms {

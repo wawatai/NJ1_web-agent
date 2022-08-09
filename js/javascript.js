@@ -313,6 +313,11 @@ $(function(){
         $('.agTerms').removeClass('display');
         $(".agRegist").removeClass("darkness");
     })
+    //申請已送出，審查中
+    $(".agRegist .btnBox .applycheck").click(function(){
+        $('.agRegist').removeClass('display');
+        $(".agApply").addClass('display');
+    })
 })
 
 function unlogin(){
