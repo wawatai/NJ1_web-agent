@@ -314,9 +314,9 @@ $(function(){
         $(".agRegist").removeClass("darkness");
     })
     //申請已送出，審查中
-    $(".agRegist .btnBox .applycheck").click(function(){
-        $('.agRegist').removeClass('display');
-        $(".agApply").addClass('display');
+    $(".agRegist .applycheck").click(function(){
+        $('.agApply').addClass('display');
+        $(".agRegist").removeClass('display');
     })
 })
 
