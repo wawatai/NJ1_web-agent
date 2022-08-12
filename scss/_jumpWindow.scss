@@ -197,17 +197,19 @@
                 width: 100%;
                 height: auto;
                 padding: 35px;
-                display: flex;
-                justify-content: space-between;
                 box-sizing: border-box;
+
+                form {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: space-between;
 
                 .block {
                     width: 48%;
                     height: auto;
 
-                    form {
-                        width: 100%;
-                        height: auto;
+                    label {
 
                         .inputBox {
                             width: 100%;
@@ -285,23 +287,16 @@
                              }
                         }
 
-                        .adj {
-                            margin-bottom: 35px;
-                        }
                         .last {
-                            margin-bottom: 0px;
-                        }
-
-                        &>.inputBox:last-child {
                             margin-bottom: 0;
                         }
                         
-                    }   
+                    } 
                     .btnBox {
                         width: 100%;
                         height: auto;
                         display: flex;
-                        padding: 23px 94px 35px 91px;
+                        padding: 34px 94px 58px 91px;
                         box-sizing: border-box;
 
                         .readBtn {
@@ -348,6 +343,8 @@
                         margin-top: 20px;
                         cursor: pointer;
                     }
+                }
+ 
                 }
             }   
         }

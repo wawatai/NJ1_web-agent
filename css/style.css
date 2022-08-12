@@ -1088,41 +1088,41 @@ html body .filter .jumpWindow.agRegist .content {
   width: 100%;
   height: auto;
   padding: 35px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html body .filter .jumpWindow.agRegist .content form {
+  width: 100%;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
-html body .filter .jumpWindow.agRegist .content .block {
+html body .filter .jumpWindow.agRegist .content form .block {
   width: 48%;
   height: auto;
 }
-html body .filter .jumpWindow.agRegist .content .block form {
-  width: 100%;
-  height: auto;
-}
-html body .filter .jumpWindow.agRegist .content .block form .inputBox {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox {
   width: 100%;
   height: 76px;
   margin-bottom: 70px;
   position: relative;
 }
-html body .filter .jumpWindow.agRegist .content .block form .inputBox .inputName {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox .inputName {
   font-size: 18px;
   font-weight: bold;
   color: #fb770a;
   margin-bottom: 13px;
 }
-html body .filter .jumpWindow.agRegist .content .block form .inputBox .inputName span {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox .inputName span {
   color: #e11515;
   font-weight: bold;
   margin-right: 8px;
 }
-html body .filter .jumpWindow.agRegist .content .block form .inputBox input {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox input {
   width: 100%;
   height: 44px;
   background: #101010;
@@ -1135,22 +1135,22 @@ html body .filter .jumpWindow.agRegist .content .block form .inputBox input {
           box-sizing: border-box;
   padding-left: 15px;
 }
-html body .filter .jumpWindow.agRegist .content .block form .inputBox input::-webkit-input-placeholder {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox input::-webkit-input-placeholder {
   color: #999999;
 }
-html body .filter .jumpWindow.agRegist .content .block form .inputBox input::-moz-placeholder {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox input::-moz-placeholder {
   color: #999999;
 }
-html body .filter .jumpWindow.agRegist .content .block form .inputBox input:-ms-input-placeholder {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox input:-ms-input-placeholder {
   color: #999999;
 }
-html body .filter .jumpWindow.agRegist .content .block form .inputBox input::-ms-input-placeholder {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox input::-ms-input-placeholder {
   color: #999999;
 }
-html body .filter .jumpWindow.agRegist .content .block form .inputBox input::placeholder {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox input::placeholder {
   color: #999999;
 }
-html body .filter .jumpWindow.agRegist .content .block form .inputBox .remindText {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox .remindText {
   font-size: 14px;
   font-weight: bold;
   color: #e11515;
@@ -1160,7 +1160,7 @@ html body .filter .jumpWindow.agRegist .content .block form .inputBox .remindTex
   top: 74px;
   left: 0;
 }
-html body .filter .jumpWindow.agRegist .content .block form .inputBox .btnBox {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox .btnBox {
   width: 504px;
   height: auto;
   display: -webkit-box;
@@ -1174,7 +1174,7 @@ html body .filter .jumpWindow.agRegist .content .block form .inputBox .btnBox {
           align-items: center;
   margin: 48px 0;
 }
-html body .filter .jumpWindow.agRegist .content .block form .inputBox .btnBox .readBtn {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox .btnBox .readBtn {
   width: 22px;
   height: 22px;
   background: #181818;
@@ -1183,14 +1183,14 @@ html body .filter .jumpWindow.agRegist .content .block form .inputBox .btnBox .r
   margin-right: 5px;
   cursor: pointer;
 }
-html body .filter .jumpWindow.agRegist .content .block form .inputBox .btnBox .agree {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox .btnBox .agree {
   color: #ffc13c;
   font-size: 18px;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
 }
-html body .filter .jumpWindow.agRegist .content .block form .inputBox .arrow {
+html body .filter .jumpWindow.agRegist .content form .block label .inputBox .arrow {
   width: 0;
   height: 0;
   border-style: solid;
@@ -1200,26 +1200,20 @@ html body .filter .jumpWindow.agRegist .content .block form .inputBox .arrow {
   top: 50px;
   right: 15px;
 }
-html body .filter .jumpWindow.agRegist .content .block form .adj {
-  margin-bottom: 35px;
-}
-html body .filter .jumpWindow.agRegist .content .block form .last {
-  margin-bottom: 0px;
-}
-html body .filter .jumpWindow.agRegist .content .block form > .inputBox:last-child {
+html body .filter .jumpWindow.agRegist .content form .block label .last {
   margin-bottom: 0;
 }
-html body .filter .jumpWindow.agRegist .content .block .btnBox {
+html body .filter .jumpWindow.agRegist .content form .block .btnBox {
   width: 100%;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 23px 94px 35px 91px;
+  padding: 34px 94px 58px 91px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-html body .filter .jumpWindow.agRegist .content .block .btnBox .readBtn {
+html body .filter .jumpWindow.agRegist .content form .block .btnBox .readBtn {
   width: 20px;
   height: 20px;
   border: 1px solid #ffc13c;
@@ -1228,10 +1222,10 @@ html body .filter .jumpWindow.agRegist .content .block .btnBox .readBtn {
   position: relative;
   cursor: pointer;
 }
-html body .filter .jumpWindow.agRegist .content .block .btnBox .readBtn.active .checked {
+html body .filter .jumpWindow.agRegist .content form .block .btnBox .readBtn.active .checked {
   opacity: 1;
 }
-html body .filter .jumpWindow.agRegist .content .block .btnBox .readBtn .checked {
+html body .filter .jumpWindow.agRegist .content form .block .btnBox .readBtn .checked {
   font-size: 18px;
   color: #ffc13c;
   position: absolute;
@@ -1239,14 +1233,14 @@ html body .filter .jumpWindow.agRegist .content .block .btnBox .readBtn .checked
   left: 4px;
   opacity: 0;
 }
-html body .filter .jumpWindow.agRegist .content .block .btnBox .agree {
+html body .filter .jumpWindow.agRegist .content form .block .btnBox .agree {
   font-size: 18px;
   font-weight: bold;
   color: #ffc13c;
   text-decoration: underline;
   cursor: pointer;
 }
-html body .filter .jumpWindow.agRegist .content .block .apply {
+html body .filter .jumpWindow.agRegist .content form .block .apply {
   background: -webkit-gradient(linear, left top, right top, from(#ff4b33), color-stop(98%, #d8001f));
   background: linear-gradient(to right, #ff4b33 0%, #d8001f 98%);
   border: none;
@@ -1266,7 +1260,7 @@ html body .filter .jumpWindow.agRegist .content .block .apply {
   margin-top: 20px;
   cursor: pointer;
 }
-html body .filter .jumpWindow.agRegist .content .block .apply:hover, html body .filter .jumpWindow.agRegist .content .block .apply:active, html body .filter .jumpWindow.agRegist .content .block .apply.active {
+html body .filter .jumpWindow.agRegist .content form .block .apply:hover, html body .filter .jumpWindow.agRegist .content form .block .apply:active, html body .filter .jumpWindow.agRegist .content form .block .apply.active {
   background: #b9001b;
 }
 html body .filter .jumpWindow.agApply {
