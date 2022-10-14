@@ -26,11 +26,10 @@ header {
         .agentNav {
             min-width: 897px;
             display: flex;
-            position: fixed;
-            margin-left: 193px;
+            margin-left: -300px;
 
             li {
-                width: 185px;
+                width: auto;
                 height: 40px;
                 color: $mainFont_1;
                 font-size: 20px;
@@ -39,6 +38,8 @@ header {
                 text-align: center;
                 position: relative;
                 cursor: pointer;
+                padding: 0 20px;
+                margin: 0 10px;
 
                 &:hover,&:active,&.active {
                     color: $choose_Border;
@@ -52,6 +53,23 @@ header {
                         bottom: -6px;
                         left: 0;
                     }
+                }
+            }
+        }
+
+        @media only screen and(max-width: 1855px) {
+            
+            .agentNav {
+                margin: 0;
+            }
+        }
+        @media only screen and(max-width: 1590px) {
+            
+            .agentNav {
+                margin: 0;
+
+                li {
+                    font-size: 16px;
                 }
             }
         }
